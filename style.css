@@ -11,7 +11,7 @@ body, html {
 }
 
 body {
-  background-color: #8230C6;
+  background-color:#5F45A6;
 }
 
 main {
@@ -27,10 +27,10 @@ section {
   
   overflow: hidden;
   
-  background-color: #34BBE2;
+  background-color: #3BBFBE;
   color:white;
   height: 500px;
-  width: 280px;
+  width: 300px;
   border-radius: 20px;
   box-shadow: 0px 0px 10px #00000078;
   
@@ -54,9 +54,49 @@ main > section > div#login {
 
 main > section > div#login > h1 {
   text-align: center;
+  padding: 10px;
 }
 
 main > section > div#login > p {
-  text-align: justify;
+  font-size: 0.8em;
+  padding-bottom: 10px;
 }
 
+form > input[type=submit] {
+  display:block;
+  font-size: 1em;
+  text-align: center;
+  height: 30px;
+  width: 100%;
+  background-color: #298E8E;
+  color: #FAFAFA;
+  border:none;
+  border-radius: 3px;
+}
+
+form > input[type=submit]:active {
+  background-color: #3DE4E4;
+}
+
+form > a.botao { 
+  display: block;
+  font-size: 1em;
+  margin-top: 5px;
+  height: 30px;
+  width: 100%;
+  padding-top: 3px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #298E8E;
+  border-radius: 3px;
+  
+}
+
+form > a.botao:active {
+  background-color:#298E8E;
+}
+
+form > a.botao > span {
+  font-size: 1em;
+}
