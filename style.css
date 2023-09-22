@@ -62,6 +62,19 @@ main > section > div#login > p {
   padding-bottom: 10px;
 }
 
+form > div.campo {
+  background-color: #5F45A6;
+  display: block;
+  height: 40px;
+  margin:5px 0px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+div.campo > label {
+  display: none;
+}
+
 form > input[type=submit] {
   display:block;
   font-size: 1em;
@@ -71,7 +84,7 @@ form > input[type=submit] {
   background-color: #298E8E;
   color: #FAFAFA;
   border:none;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 form > input[type=submit]:active {
@@ -89,7 +102,7 @@ form > a.botao {
   text-decoration: none;
   color: white;
   border: 1px solid #298E8E;
-  border-radius: 3px;
+  border-radius: 5px;
   
 }
 
@@ -100,3 +113,4 @@ form > a.botao:active {
 form > a.botao > span {
   font-size: 1em;
 }
+
