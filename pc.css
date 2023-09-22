@@ -23,7 +23,7 @@ section > div#foto {
 section > div#login {
   float: left;
   width: 50%;
-  height: 800px;
+  height: 100%;
 }
 
 main > section > div#login > h1 {
@@ -33,4 +33,10 @@ main > section > div#login > h1 {
 
 main > section > div#login > p {
   font-size: 1.2em;
+}
+form > div.campo {
+  margin-top: 15px;
+}
+form > input[type=submit] {
+  margin-top: 265px;
 }

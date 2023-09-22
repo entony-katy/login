@@ -10,7 +10,7 @@ body {
 }
 
 section {
-  height: 250px;
+  height: 280px;
   width: 500px;
 }
 
@@ -27,3 +27,4 @@ section > div#login {
   width: 65%;
   height: 100%;
 }
+

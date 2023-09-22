@@ -67,12 +67,31 @@ form > div.campo {
   display: block;
   height: 40px;
   margin:5px 0px;
-  border-radius: 5px;
+  border-radius: 8px;
   width: 100%;
+  border: 2px solid #5F45A6;
 }
 
 div.campo > label {
   display: none;
+}
+
+div.campo > span {
+  font-size: 37px;
+  padding: 2px;
+  
+  width: 38px;
+}
+
+div.campo > input {
+  background-color:  #3DE4E4;
+  font-size: 1em;
+  height: 100%;
+  width: calc(100% - 43px);
+  transform: translateY(-17px);
+  border:none;
+  border-radius: 8px;
+  padding: 5px;
 }
 
 form > input[type=submit] {
@@ -84,7 +103,7 @@ form > input[type=submit] {
   background-color: #298E8E;
   color: #FAFAFA;
   border:none;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 form > input[type=submit]:active {
@@ -100,14 +119,16 @@ form > a.botao {
   padding-top: 3px;
   text-align: center;
   text-decoration: none;
-  color: white;
+  background: white;
+  color:#298E8E ;
   border: 1px solid #298E8E;
-  border-radius: 5px;
+  border-radius: 8px;
   
 }
 
 form > a.botao:active {
   background-color:#298E8E;
+  color:white;
 }
 
 form > a.botao > span {
