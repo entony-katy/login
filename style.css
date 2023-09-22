@@ -41,7 +41,7 @@ main > section > #foto {
   display: block;
   height: 200px;
   
-  background: black url(/imagens/foto.jpg) no-repeat;
+  background: black url(/foto.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
 }
